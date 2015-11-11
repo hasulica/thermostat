@@ -61,4 +61,30 @@ describe('Thermostat', function(){
 
   });
 
+  it('can be reset to default temperature', function() {
+    thermostat.up();
+    thermostat.up();
+    thermostat.resetTemperature();
+    expect(thermostat.getCurrentTemperature()).toEqual(20);
+  });
+
+  describe('usage', function() {
+    it('low if below 18 degrees', function() {
+      thermostat.down();
+      thermostat.down();
+      thermostat.down();
+      expect(thermostat.getUsage()).toEqual('low');
+    });
+    it('medium if between 18 and 25 degrees', function() {
+      expect(thermostat.getUsage()).toEqual('medium');
+    });
+    it('high if above 25 degrees', function() {
+      for(var i = 0; i < 6; i++) {
+        thermostat.up();
+      }
+      expect(thermostat.getUsage()).toEqual('high');
+    });
+  });
+
+
 });
