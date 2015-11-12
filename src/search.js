@@ -4,13 +4,16 @@ $(document).ready(function() {
     $.ajax({
       url : "http://autocomplete.wunderground.com/aq?query=" + query,
       dataType : "jsonp",
-      success : function(parsed_json) {
-        $.each(parsed_json,function() {
-          var city = this.Name;
-          $('.results').append('<p>' + city + '</p>');
-        });
-      }
+      jsonp: "callback",
+      jsonpCallback: "jsonpCallbackfunction"
     });
+
+    function jsonpCallbackfunction(json) {
+      $.each(data.Results,function() {
+        var city = this.Name;
+        $('.results').append('<p>' + city + '</p>');
+      });
+    }
 
   });
 
