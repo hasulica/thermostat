@@ -1,0 +1,17 @@
+p.temperature {
+  font-family: sans-serif;
+  font-size: 24pt;
+  font-weight: 500;
+}
+
+p.low {
+  color: green;
+}
+
+p.medium {
+  color: orange;
+}
+
+p.high {
+  color: red;
+}

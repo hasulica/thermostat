@@ -2,6 +2,7 @@ $(document).ready(function() {
   var thermostat = new Thermostat();
 
   function updateTemperature() {
+    $('.temperature').removeClass("low high medium");
     $('.temperature').text(thermostat.getCurrentTemperature());
     $('.temperature').addClass(thermostat.getUsage());
   }
