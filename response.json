@@ -1,0 +1,147 @@
+{
+  "message": "like",
+  "cod": "200",
+  "count": 4,
+  "list": [{
+    "id": 2643734,
+    "name": "Londonderry County Borough",
+    "coord": {
+      "lon": -7.30917,
+      "lat": 54.997211
+    },
+    "main": {
+      "temp": 280.698,
+      "temp_min": 280.698,
+      "temp_max": 280.698,
+      "pressure": 1009.98,
+      "sea_level": 1017.54,
+      "grnd_level": 1009.98,
+      "humidity": 100
+    },
+    "dt": 1447418583,
+    "wind": {
+      "speed": 13.12,
+      "deg": 285.001
+    },
+    "sys": {
+      "country": "GB"
+    },
+    "rain": {
+      "3h": 2.115
+    },
+    "clouds": {
+      "all": 36
+    },
+    "weather": [{
+      "id": 500,
+      "main": "Rain",
+      "description": "light rain",
+      "icon": "10d"
+    }]
+  }, {
+    "id": 7535661,
+    "name": "London Borough of Harrow",
+    "coord": {
+      "lon": -0.33333,
+      "lat": 51.566669
+    },
+    "main": {
+      "temp": 282.082,
+      "temp_min": 282.082,
+      "temp_max": 282.082,
+      "pressure": 1022.3,
+      "sea_level": 1032.69,
+      "grnd_level": 1022.3,
+      "humidity": 91
+    },
+    "dt": 1447418142,
+    "wind": {
+      "speed": 9.06,
+      "deg": 266.004
+    },
+    "sys": {
+      "country": "GB"
+    },
+    "rain": {
+      "3h": 1.3725
+    },
+    "clouds": {
+      "all": 0
+    },
+    "weather": [{
+      "id": 500,
+      "main": "Rain",
+      "description": "light rain",
+      "icon": "10d"
+    }]
+  }, {
+    "id": 2643743,
+    "name": "London",
+    "coord": {
+      "lon": -0.12574,
+      "lat": 51.50853
+    },
+    "main": {
+      "temp": 282.082,
+      "temp_min": 282.082,
+      "temp_max": 282.082,
+      "pressure": 1022.3,
+      "sea_level": 1032.69,
+      "grnd_level": 1022.3,
+      "humidity": 91
+    },
+    "dt": 1447417771,
+    "wind": {
+      "speed": 9.06,
+      "deg": 266.004
+    },
+    "sys": {
+      "country": "GB"
+    },
+    "rain": {
+      "3h": 1.3725
+    },
+    "clouds": {
+      "all": 0
+    },
+    "weather": [{
+      "id": 500,
+      "main": "Rain",
+      "description": "light rain",
+      "icon": "10d"
+    }]
+  }, {
+    "id": 6058560,
+    "name": "London",
+    "coord": {
+      "lon": -81.23304,
+      "lat": 42.983391
+    },
+    "main": {
+      "temp": 278.557,
+      "temp_min": 278.557,
+      "temp_max": 278.557,
+      "pressure": 995.23,
+      "sea_level": 1019.85,
+      "grnd_level": 995.23,
+      "humidity": 95
+    },
+    "dt": 1447417893,
+    "wind": {
+      "speed": 10.61,
+      "deg": 267.004
+    },
+    "sys": {
+      "country": "CA"
+    },
+    "clouds": {
+      "all": 56
+    },
+    "weather": [{
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }]
+  }]
+}
